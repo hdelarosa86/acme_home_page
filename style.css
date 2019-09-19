@@ -37,6 +37,9 @@ ul{
 li{
     background-color: #bfc9ca;
     margin-bottom: .5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
 }
 
 section{
