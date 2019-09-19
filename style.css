@@ -1,92 +1,85 @@
-#container{
-    background-color: #eaeded;
-    width: 80%;
-    margin: 0 auto;
-    padding: 1rem;
+#container {
+  background-color: #eaeded;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-h1,h2{
-    color: white;
-    font-family: sans-serif;
-    padding: 1rem;
+h1,
+h2 {
+  color: white;
+  font-family: sans-serif;
+  padding: 1rem;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-/*h2{
-    background-color: tomato;
-}*/
-
-h3:odd{
-    color: tomato;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-h3:even{
-    color: dodgerblue;
+li {
+  background-color: #bfc9ca;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
 }
 
-p{
+section {
+  border-bottom: 1px solid tomato;
+  margin-bottom: 1rem;
 }
 
-ul{
-    list-style-type: none;
-    padding: 0;
-}
-li{
-    background-color: #bfc9ca;
-    margin-bottom: .5rem;
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
+.box {
+  width: 75px;
+  height: 75px;
 }
 
-section{
-    border-bottom: 1px solid tomato;
+.box + p {
+  margin-left: 0.5rem;
 }
 
-.color-box{
-    width: 50px;
-    height: 50px;
+.color-tomato {
+  background-color: tomato;
 }
 
-.tomato{
-    background-color: tomato;
+.color-dodgerBlue {
+  background-color: dodgerblue;
 }
 
-.dodgerBlue{
-    background-color: dodgerblue;
+.teamImage {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: center;
 }
 
-.teamImage{
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    background-size: cover;
-    background-position: center;
-    background-color: tomato;
+.product:nth-child(odd) {
+  color: tomato;
+}
+
+.product:nth-child(even) {
+  color: dodgerblue;
 }
 
 #moe{
-    background-image: url(http://1.bp.blogspot.com/-i2AJd-eAdjY/TjLS65zRb-I/AAAAAAAAB9g/DSNg3RoNzoo/s1600/moe-howard-7.jpg);
+  background-image: url(http://1.bp.blogspot.com/-i2AJd-eAdjY/TjLS65zRb-I/AAAAAAAAB9g/DSNg3RoNzoo/s1600/moe-howard-7.jpg);
 }
 
 #curly{
-    background-image: url(https://mediad.publicbroadcasting.net/p/wmky/files/styles/x_large/public/201810/curly.jpg);
+  background-image: url(https://mediad.publicbroadcasting.net/p/wmky/files/styles/x_large/public/201810/curly.jpg);
 }
 
 #larry{
-    background-image: url(https://miro.medium.com/max/1160/1*8O3MeV31yd_QDeMnKRXZrw.jpeg);
+  background-image: url(https://miro.medium.com/max/1160/1*8O3MeV31yd_QDeMnKRXZrw.jpeg);
 }
 
 #shemp{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Shemp_Howard_in_Brideless_Groom_1947.png);
-}
-.redText{
-    color: tomato;
-}
-
-.blueText{
-    color: dodgerblue;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Shemp_Howard_in_Brideless_Groom_1947.png);
 }
