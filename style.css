@@ -52,7 +52,7 @@ section {
   background-color: dodgerblue;
 }
 
-.teamImage {
+.team-image {
   height: 200px;
   width: 200px;
   border-radius: 100px;
@@ -60,26 +60,27 @@ section {
   background-position: center;
 }
 
-.product:nth-child(odd) {
+.color-font:nth-child(even) {
   color: tomato;
 }
 
-.product:nth-child(even) {
+.color-font:nth-child(odd) {
   color: dodgerblue;
 }
 
-#moe{
-  background-image: url(http://1.bp.blogspot.com/-i2AJd-eAdjY/TjLS65zRb-I/AAAAAAAAB9g/DSNg3RoNzoo/s1600/moe-howard-7.jpg);
+
+#moe {
+  background-image: url(http://1bp.blogspot.com/-i2AJd-eAdjY/TjLS65zRb-I/AAAAAAAAB9g/DSNg3RoNzoo/s1600/moe-howard-7.jpg);
 }
 
-#curly{
+#curly {
   background-image: url(https://mediad.publicbroadcasting.net/p/wmky/files/styles/x_large/public/201810/curly.jpg);
 }
 
-#larry{
-  background-image: url(https://miro.medium.com/max/1160/1*8O3MeV31yd_QDeMnKRXZrw.jpeg);
+#larry {
+  background-image: url(https://miro.medium.com/max/1160/1*8o3mev31yd_qdemnkrxzrw.jpeg);
 }
 
-#shemp{
+#shemp {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Shemp_Howard_in_Brideless_Groom_1947.png);
 }
